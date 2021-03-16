@@ -1,0 +1,287 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  /*banner section css*/
+  .banner{
+    height: auto;
+  }
+  .left{
+    text-align: center;
+    height: 60vh;
+  }
+  .b-title{
+    font-size: 20px;
+    width: auto;
+    margin: 18px 0px;
+  }
+  .left img{
+    max-width: 40%;
+  }
+  .line{
+    margin: 0 auto;
+  }
+  .b-sub{
+    font-size: 12px;
+    margin-top: 18px;
+    width: auto;
+  }
+  .b-btn{
+    margin: 15px 0px;
+    padding: 10px 28px;
+  }
+  .right{
+    height: 70vh;
+  }
+  .right .card{
+    margin-left: auto;
+  }
+
+  /*social-media section css*/
+  .social-media{
+    text-align: center;
+  }
+  .social-media p{
+    font-size: 13px;
+  }
+  .social-media ul{
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .social-media ul li{
+    margin-left: 12px;
+  }
+  .social-media ul li a i{
+    font-size: 25px;
+  }
+
+  /*feature-1 section css*/
+  .feature-1{
+    text-align: center;
+    padding: 45px 0px;
+  }
+  .tab-1{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+  }
+  .tab-3{
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+  }
+  .feature-1 ul{
+    padding-left: 0;
+  }
+  .feature-1 ul li{
+    display: inline-block;
+    width: 97px;
+    height: 100px;
+    line-height: 100px;
+  }
+  .feature-1 h4{
+    font-size: 18px;
+  }
+  .feature-1 p{
+    width: auto;
+    font-size: 12px;
+  }
+  .feature-1 img{
+    margin-top: 52px;
+  }
+  .feature-1 button{
+    font-size: 13px;
+    padding: 10px 22px;
+  }
+
+  /*sub-list section css*/
+  .sub-list{
+    padding: 55px 0px;
+    text-align: center;
+  }
+  .sub-list h4{
+    font-size: 22px;
+    margin-top: 32px;
+  }
+  .line-2{
+    margin: 15px auto;
+  }
+  .sub-list p{
+    width: auto;
+    font-size: 12px;
+  }
+  .top{
+    text-align: left;
+  }
+  .bottom{
+    text-align: left;
+  }
+
+  /*standard section css*/
+  .standard{
+    padding: 50px 0px;
+    text-align: center;
+  }
+  .standard h3{
+    font-size: 22px;
+  }
+  .line-3{
+    margin: 15px auto;
+  }
+  .standard p{
+    width: auto;
+    font-size: 12px;
+    margin-bottom: 32px;
+  }
+
+  /*why this section css*/
+  .awesome{
+    padding: 55px 0px;
+  }
+  .up{
+    margin-bottom: 60px;
+  }
+  .up h1{
+    font-size: 28px;
+  }
+  .awesome p{
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  /*pricing section css*/
+  .pricing{
+    padding: 50px 0;
+  }
+  .upper{
+    margin-bottom: 70px;
+  }
+  .upper h1{
+    font-size: 32px;
+  }
+  .upper p{
+    font-size: 12px;
+  }
+  .table-head h5{
+    margin-bottom: 0;
+  }
+  .table-body h1{
+    margin-bottom: 0;
+  }
+
+  /*feedback section css*/
+  .feedback{
+    padding: 55px 0;
+  }
+  .upper-2 h1{
+    font-size: 25px;
+  }
+  .upper-2 p{
+    font-size: 12px;
+  }
+  .comment-box{
+    margin-right: 0;
+    padding: 20px 25px;
+  }
+
+  /*custom section css*/
+  .custom-style{
+    padding: 55px 0px;
+  }
+  .custom-style h1{
+    font-size: 26px;
+  }
+  .custom-style p{
+    font-size: 10px;
+  }
+
+  /*contact section css*/
+  .contact{
+    padding: 55px 0px;
+  }
+  .contact-right{
+    margin-left: 0;
+  }
+  .contact-left .form-control{
+    font-size: 12px;
+  }
+  .contact-right .form-control{
+    padding: 25px;
+    font-size: 12px;
+  }
+  .c-btn{
+   font-size: 12px; 
+   padding: 12px 18px;
+  }
+
+  /*footer section css*/
+  .footer-icon ul li{
+    margin-left: 15px;
+  }
+  .footer-icon ul li a i{
+    font-size: 20px;
+  }
+  .footer-icon p{
+    font-size: 10px;
+  }
+}

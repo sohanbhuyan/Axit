@@ -192,11 +192,11 @@ header{
 .social-media ul li{
 	display: inline-block;
 	list-style: none;
-	margin-left: 55px;
+	margin-left: 45px;
 }
 .social-media ul li a i{
 	color: #cccccc;
-	font-size: 52px;
+	font-size: 48px;
 }
 .wifi{
 	transform: rotate(45deg);
@@ -645,6 +645,9 @@ header{
 	list-style: none;
 	display: inline-block;
 	margin-left: 28px;
+}
+.footer-icon ul li:nth-child(1){
+	margin-left: 0;
 }
 .footer-icon ul li a i{
 	color: #cccccc;
