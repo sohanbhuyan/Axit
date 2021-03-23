@@ -29,7 +29,83 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   
   /* CSS */
-  
+
+  .banner{
+    height: 70vh;
+  }
+  .left{
+    height: 70vh;
+  }
+  .right{
+    height: 70vh;
+  }
+  .right .card{
+    margin-left: 30px;
+  }
+  .b-title{
+    font-size: 23px;
+    width: 100%;
+  }
+  .b-sub{
+    font-size: 14px;
+    width: 100%;
+  }
+  .social-media h5{
+    font-size: 15px;
+  }
+  .social-media p{
+    font-size: 9px;
+  }
+  .social-media ul li{
+    margin-left: 18px;
+  }
+  .social-media ul li a i{
+    font-size: 32px;
+  }
+  .feature-1 ul li{
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+  }
+  .feature-1 h4{
+    font-size: 15px;
+  }
+  .feature-1 p{
+    font-size: 10px;
+    width: 100%;
+  }
+  .sub-list h4{
+    font-size: 22px;
+  }
+  .sub-list p{
+    font-size: 12px;
+  }
+  .standard h3{
+    font-size: 22px;
+  }
+  .standard p{
+    font-size: 12px;
+    width: 100%;
+  }
+  .comment-box{
+    padding: 12px 17px;
+    margin-right: 13px;
+  }
+  .mini-box{
+    left: 65px;
+  }
+  .comment-user{
+    text-align: center;
+    margin-left: 49px;
+    margin-top: 40px;
+  }
+  .comment-user h6{
+    font-size: 15px;
+  }
+  .comment-user p{
+    font-size: 10px;
+  }
+
 }
 
 /* 
@@ -55,6 +131,71 @@
 }
 
 /* 
+  ##Device = Low Resolution Tablets, Mobiles (Portrait)
+  ##Screen = B/w 411px to 731px
+*/
+
+@media (min-width: 411px) and (max-width: 731px) {
+  
+  /* CSS */
+
+  /*banner section css*/
+  .b-title{
+    font-size: 23px !important;
+  }
+  .b-sub{
+    font-size: 14px !important;
+  }
+  .right .card{
+    margin-left: 15px !important;
+  }
+  .right{
+    height: 60vh !important;
+  }
+
+  /*feature-1 section css*/
+  .feature-1 ul li{
+    width: 110px !important;
+  }
+  .feature-1 h4{
+    font-size: 20px !important;
+  }
+
+  /*sub-list section css*/
+  .sub-list h4{
+    font-size: 25px !important;
+  }
+  .sub-list p{
+    font-size: 14px !important;
+  }
+
+  /*standard section css*/
+  .standard h3{
+    font-size: 25px !important;
+  }
+  .standard p{
+    font-size: 14px !important;
+  }
+
+  /*why this section css*/
+  .up h1{
+    font-size: 31px !important;
+  }
+  .awesome p{
+    font-size: 13px !important;
+  }
+
+  /*pricing section css*/
+  .upper h1{
+    font-size: 35px !important;
+  }
+
+  .comment-box{
+    padding: 32px 42px !important;
+  }
+}
+
+/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
@@ -69,7 +210,7 @@
   }
   .left{
     text-align: center;
-    height: 60vh;
+    height: 65vh;
   }
   .b-title{
     font-size: 20px;
@@ -114,7 +255,7 @@
     margin-left: 12px;
   }
   .social-media ul li a i{
-    font-size: 25px;
+    font-size: 24px;
   }
 
   /*feature-1 section css*/
@@ -135,7 +276,7 @@
   }
   .feature-1 ul li{
     display: inline-block;
-    width: 97px;
+    width: 95px;
     height: 100px;
     line-height: 100px;
   }
@@ -242,6 +383,13 @@
   .comment-box{
     margin-right: 0;
     padding: 20px 25px;
+  }
+  .mini-box{
+    left: 65px;
+  }
+  .comment-user{
+    margin-left: 50px;
+    margin-top: 38px;
   }
 
   /*custom section css*/
